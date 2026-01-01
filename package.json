@@ -1,0 +1,26 @@
+{
+  "name": "backend_new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^2.8.0",
+    "docxtemplater": "^3.67.6",
+    "dotenv": "^17.2.3",
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "pdf-lib": "^1.17.1",
+    "pizzip": "^3.2.0",
+    "uuid": "^13.0.0",
+    "xlsx-template": "^1.4.5"
+  }
+}

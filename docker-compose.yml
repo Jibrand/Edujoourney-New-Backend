@@ -1,0 +1,9 @@
+services:
+  edujourney-backend:
+    image: edujourney-image:latest
+    container_name: edujourney-container
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "8081:3000"   # NEW HOST PORT
