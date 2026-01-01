@@ -38,6 +38,8 @@ export async function generateExcelReport({ jobDir, name, org, grade, date, answ
   // 3. Map Career Clusters (Top 2 and Bottom 2)
   const topCareers = extracted.sece.top2.map(key => careerClusterNames[key.toUpperCase()]);
   const bottomCareers = extracted.sece.bottom2.map(key => careerClusterNames[key.toUpperCase()]);
+  const topCodes = extracted.sece.top2.map(key => key.toUpperCase());
+  const bottomCode = extracted.sece.bottom2.map(key => key.toUpperCase());
 
   // console.log('-----------------------');
   // console.log('Personality:', mbtiType);
@@ -51,6 +53,9 @@ export async function generateExcelReport({ jobDir, name, org, grade, date, answ
     mbtiType,
     dominantRiasec,
     topCareers,
-    bottomCareers
+    bottomCareers,
+    topCodes,
+    bottomCode,
+    dominantKey
   };
 }
