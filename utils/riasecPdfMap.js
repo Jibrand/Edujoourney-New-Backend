@@ -4,5 +4,5 @@ export const riasecPdfMap = {
     a: 'Artistic.pdf',
     s: 'Social.pdf',
     e: 'Enterprising.pdf',
-    c: 'Enterprising.pdf'
+    c: 'Conventional.pdf'
 };
